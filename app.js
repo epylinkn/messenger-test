@@ -696,21 +696,21 @@ function sendQuickReply(recipientId) {
       id: recipientId
     },
     message: {
-      text: "What's your favorite movie genre?",
+      text: "What day works best for you?",
       quick_replies: [
         {
           "content_type":"text",
-          "title":"Action",
+          "title":"Monday",
           "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_ACTION"
         },
         {
           "content_type":"text",
-          "title":"Comedy",
+          "title":"Tuesday",
           "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_COMEDY"
         },
         {
           "content_type":"text",
-          "title":"Drama",
+          "title":"Funday",
           "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_DRAMA"
         }
       ]
