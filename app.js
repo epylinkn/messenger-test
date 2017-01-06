@@ -308,7 +308,8 @@ function receivedMessage(event) {
         break;
 
       default:
-        sendTextMessage(senderID, messageText);
+        //sendTextMessage(senderID, messageText);
+        sendTextMessage(senderID, "For structured message samples try any of the follow messages: image, gif, audio, video, file, button, generic, receipt, quick reply, read receipt, typing on, typing off, account linking");
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
